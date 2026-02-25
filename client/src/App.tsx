@@ -61,7 +61,7 @@ const App: React.FC = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/grade-answer", {
+      const res = await fetch("https://major-project-bnmy.onrender.com/grade-answer", {
         method: "POST",
         body: formData,
       });
